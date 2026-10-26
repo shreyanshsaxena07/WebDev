@@ -1,0 +1,21 @@
+body {
+    background-color: lavender;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+.external-style {
+    background-color: lightcyan;
+    color: darkslategray;
+    padding: 15px;
+}
+
+.external-style h2 {
+    color: navy;
+}

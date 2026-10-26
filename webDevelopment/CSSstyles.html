@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of CSS</title>
+
+    <link rel="stylesheet" href="question7.css">
+
+    <style>
+        .internal-style {
+            background-color: lightyellow;
+            color: darkgreen;
+            padding: 15px;
+        }
+
+        .internal-style h2 {
+            color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Demonstration of CSS Styles</h1>
+    <p>This page demonstrates external, internal, and inline CSS.</p>
+
+    <section class="external-style">
+        <h2>External CSS</h2>
+        <p>
+            The background, text color, and heading color in this section are
+            controlled by the linked <strong>question7.css</strong> file.
+        </p>
+    </section>
+
+    <section class="internal-style">
+        <h2>Internal CSS</h2>
+        <p>
+            The background and colors in this section are controlled by the
+            CSS rules written inside the HTML document.
+        </p>
+    </section>
+
+    <section>
+        <h2 style="background-color: lightblue; color: darkblue; padding: 15px;">
+            Inline CSS
+        </h2>
+        <p style="color: brown;">
+            The color of this paragraph and the background and heading color
+            above are applied directly using the style attribute.
+        </p>
+    </section>
+</body>
+
+</html>
